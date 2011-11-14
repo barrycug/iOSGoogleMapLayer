@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>files</key>
+	<dict>
+		<key>Bing Logo.png</key>
+		<data>
+		zTnHo1k5Mmv/oDvVUTNfHcrF9dU=
+		</data>
+		<key>Bing Logo@2x.png</key>
+		<data>
+		q9d3j2ap74FQoo9MR3jzlDZsnH4=
+		</data>
+		<key>GpsDisplay.png</key>
+		<data>
+		6Gb0ip5gSjr6Ntq2kHwmRS1m5b0=
+		</data>
+		<key>GpsDisplay@2x.png</key>
+		<data>
+		1y0SiqIrfNtfFfjT7pqgwvGsbtM=
+		</data>
+		<key>GpsDisplayHeading.png</key>
+		<data>
+		GKgp4hgI+clXWeA/8LhzeCb40rQ=
+		</data>
+		<key>GpsDisplayHeading@2x.png</key>
+		<data>
+		EjzRB8jwNFGFUrPE0CG0rrI4hpI=
+		</data>
+		<key>MainWindow-iPad.nib</key>
+		<data>
+		OfDWw6sTIAMXzEanjqmdU4TaeUU=
+		</data>
+		<key>MainWindow.nib</key>
+		<data>
+		jQNAaB5XkOW5vzfV9ZN/rKn7bck=
+		</data>
+		<key>PkgInfo</key>
+		<data>
+		n57qDP4tZfLD1rCS43W0B4LQjzE=
+		</data>
+		<key>TestGoogleMapViewController.nib</key>
+		<data>
+		AWUrmNey1LCnSErRwOS4xTEq97g=
+		</data>
+		<key>esri.png</key>
+		<data>
+		KPxDZ7qx/qS+BvSLlo5YqyVoqmk=
+		</data>
+		<key>esri@2x.png</key>
+		<data>
+		On2dhZLo4O48oKW+HFKQ9GfUebc=
+		</data>
+	</dict>
+	<key>rules</key>
+	<dict>
+		<key>.*</key>
+		<true/>
+		<key>Info.plist</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>10</real>
+		</dict>
+		<key>ResourceRules.plist</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>100</real>
+		</dict>
+	</dict>
+</dict>
+</plist>

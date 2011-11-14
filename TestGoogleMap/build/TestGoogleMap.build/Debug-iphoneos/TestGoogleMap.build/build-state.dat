@@ -1,0 +1,1617 @@
+TTestGoogleMap
+v7
+r0
+t342940496.155369
+cCheck dependencies
+cCpResource build/Debug-iphoneos/TestGoogleMap.app/ResourceRules.plist /xcode3.2.5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos/TestGoogleMap.app/Info.plist TestGoogleMap-Info.plist
+cCompileXIB /Users/iphone4/Documents/TestGoogleMap/MainWindow.xib
+cCompileXIB /Users/iphone4/Documents/TestGoogleMap/TestGoogleMapViewController.xib
+cCopyPNGFile "/Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos/TestGoogleMap.app/Bing Logo.png" "Bing Logo.png"
+cCopyPNGFile "/Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos/TestGoogleMap.app/Bing Logo@2x.png" "Bing Logo@2x.png"
+cCopyPNGFile /Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos/TestGoogleMap.app/esri.png esri.png
+cCopyPNGFile /Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos/TestGoogleMap.app/esri@2x.png esri@2x.png
+cCompileXIB /Users/iphone4/Documents/TestGoogleMap/Resources-iPad/MainWindow-iPad.xib
+cCopyPNGFile /Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos/TestGoogleMap.app/GpsDisplay.png GpsDisplay.png
+cCopyPNGFile /Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos/TestGoogleMap.app/GpsDisplay@2x.png GpsDisplay@2x.png
+cCopyPNGFile /Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos/TestGoogleMap.app/GpsDisplayHeading.png GpsDisplayHeading.png
+cCopyPNGFile /Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos/TestGoogleMap.app/GpsDisplayHeading@2x.png GpsDisplayHeading@2x.png
+cProcessPCH /var/folders/ae/aeTYvJuLFYitRhVe3vxlFU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TestGoogleMap_Prefix-acgxycoojjrfrecrselyopvxcifh/TestGoogleMap_Prefix.pch.gch TestGoogleMap_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/ae/aeTYvJuLFYitRhVe3vxlFU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TestGoogleMap_Prefix-aeopapwdktdeqacomhwrgxygedax/TestGoogleMap_Prefix.pch.gch TestGoogleMap_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/Objects-normal/armv6/main.o /Users/iphone4/Documents/TestGoogleMap/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/Objects-normal/armv6/TestGoogleMapAppDelegate.o /Users/iphone4/Documents/TestGoogleMap/Classes/TestGoogleMapAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/Objects-normal/armv6/TestGoogleMapViewController.o /Users/iphone4/Documents/TestGoogleMap/Classes/TestGoogleMapViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/Objects-normal/armv6/AGSGoogleMapLayer.o /Users/iphone4/Documents/TestGoogleMap/Classes/AGSGoogleMapLayer.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/Objects-normal/armv6/GoogleMapSchema.o /Users/iphone4/Documents/TestGoogleMap/Classes/GoogleMapSchema.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/Objects-normal/armv6/GoogleMapTileOperation.o /Users/iphone4/Documents/TestGoogleMap/Classes/GoogleMapTileOperation.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/Objects-normal/armv7/main.o /Users/iphone4/Documents/TestGoogleMap/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/Objects-normal/armv7/TestGoogleMapAppDelegate.o /Users/iphone4/Documents/TestGoogleMap/Classes/TestGoogleMapAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/Objects-normal/armv7/TestGoogleMapViewController.o /Users/iphone4/Documents/TestGoogleMap/Classes/TestGoogleMapViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/Objects-normal/armv7/AGSGoogleMapLayer.o /Users/iphone4/Documents/TestGoogleMap/Classes/AGSGoogleMapLayer.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/Objects-normal/armv6/TestGoogleMap normal armv6
+cCompileC build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/Objects-normal/armv7/GoogleMapSchema.o /Users/iphone4/Documents/TestGoogleMap/Classes/GoogleMapSchema.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/Objects-normal/armv7/GoogleMapTileOperation.o /Users/iphone4/Documents/TestGoogleMap/Classes/GoogleMapTileOperation.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/Objects-normal/armv7/TestGoogleMap normal armv7
+cCreateUniversalBinary /Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos/TestGoogleMap.app/TestGoogleMap normal "armv6 armv7"
+cGenerateDSYMFile /Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos/TestGoogleMap.app.dSYM /Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos/TestGoogleMap.app/TestGoogleMap
+cTouch /Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos/TestGoogleMap.app
+cCodeSign /Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos/TestGoogleMap.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
+c000000004CC7DC9E0000000000000110
+t1288166558
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+c000000004CB3DFCF00000000000001A7
+t1286856655
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+c000000004CB3DFCF00000000000001E5
+t1286856655
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC10EF500000000003532B0
+t1287720693
+s3486384
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c000000004CC11B5300000000000D96F0
+t1287723859
+s890608
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.h
+c000000004CC11B4300000000000001D0
+t1287723843
+s464
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC10F4700000000003E1F20
+t1287720775
+s4071200
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC10F1C0000000000001466
+t1287720732
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004CC1111C00000000000000C4
+t1287721244
+s196
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004CC1127D0000000000267530
+t1287721597
+s2520368
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIColor.h
+c000000004CC11AE700000000000009FD
+t1287723751
+s2557
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC11AE60000000000000AA1
+t1287723750
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC11B750000000000C769F0
+t1287723893
+s13068784
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/lib/libz.dylib
+c000000004CC105400000000000020FF0
+t1287718208
+s135152
+
+N/Users/iphone4/Documents/TestGoogleMap/Bing Logo.png
+c000000004D09A59C0000000000001223
+t1292477852
+s4643
+
+N/Users/iphone4/Documents/TestGoogleMap/Bing Logo@2x.png
+c000000004D09A59C0000000000001B61
+t1292477852
+s7009
+
+N/Users/iphone4/Documents/TestGoogleMap/Classes/AGSGoogleMapLayer.h
+c000000004D09B9400000000000000168
+t1292482880
+s360
+i<Foundation/Foundation.h>
+i"ArcGIS.h"
+
+N/Users/iphone4/Documents/TestGoogleMap/Classes/AGSGoogleMapLayer.m
+c000000004D8064D90000000000000B2A
+t1300260057
+s2858
+i"AGSGoogleMapLayer.h"
+i"GoogleMapSchema.h"
+i"GoogleMapTileOperation.h"
+
+N/Users/iphone4/Documents/TestGoogleMap/Classes/GoogleMapSchema.h
+c000000004D09AECF0000000000000274
+t1292480207
+s628
+i<Foundation/Foundation.h>
+
+N/Users/iphone4/Documents/TestGoogleMap/Classes/GoogleMapSchema.m
+c000000004D8065010000000000000C2B
+t1300260097
+s3115
+i"GoogleMapSchema.h"
+i"ArcGIS.h"
+
+N/Users/iphone4/Documents/TestGoogleMap/Classes/GoogleMapTileOperation.h
+c000000004D09B269000000000000021B
+t1292481129
+s539
+i<Foundation/Foundation.h>
+i"ArcGIS.h"
+
+N/Users/iphone4/Documents/TestGoogleMap/Classes/GoogleMapTileOperation.m
+c000000004D8060C9000000000000060D
+t1300259017
+s1549
+i"GoogleMapTileOperation.h"
+
+N/Users/iphone4/Documents/TestGoogleMap/Classes/TestGoogleMapAppDelegate.h
+c000000004D09A59C00000000000001FF
+t1292477852
+s511
+i<UIKit/UIKit.h>
+
+N/Users/iphone4/Documents/TestGoogleMap/Classes/TestGoogleMapAppDelegate.m
+c000000004D09A59C0000000000000284
+t1292477852
+s644
+i"TestGoogleMapAppDelegate.h"
+i"TestGoogleMapViewController.h"
+
+N/Users/iphone4/Documents/TestGoogleMap/Classes/TestGoogleMapViewController.h
+c000000004D09A59C0000000000000162
+t1292477852
+s354
+i<UIKit/UIKit.h>
+i"ArcGIS.h"
+
+N/Users/iphone4/Documents/TestGoogleMap/Classes/TestGoogleMapViewController.m
+c000000004D22C16E0000000000000C5E
+t1294123374
+s3166
+i"TestGoogleMapViewController.h"
+i"AGSGoogleMapLayer.h"
+
+N/Users/iphone4/Documents/TestGoogleMap/GpsDisplay.png
+c000000004D09A59C0000000000000584
+t1292477852
+s1412
+
+N/Users/iphone4/Documents/TestGoogleMap/GpsDisplay@2x.png
+c000000004D09A59C0000000000000BD9
+t1292477852
+s3033
+
+N/Users/iphone4/Documents/TestGoogleMap/GpsDisplayHeading.png
+c000000004D09A59C0000000000000682
+t1292477852
+s1666
+
+N/Users/iphone4/Documents/TestGoogleMap/GpsDisplayHeading@2x.png
+c000000004D09A59C0000000000000DA9
+t1292477852
+s3497
+
+N/Users/iphone4/Documents/TestGoogleMap/MainWindow.xib
+c000000004D09A59C000000000000256B
+t1292477852
+s9579
+
+N/Users/iphone4/Documents/TestGoogleMap/Resources-iPad/MainWindow-iPad.xib
+c000000004D09A59C0000000000005182
+t1292477852
+s20866
+
+N/Users/iphone4/Documents/TestGoogleMap/TestGoogleMapViewController.xib
+c000000004D09A59C0000000000004BCE
+t1292477852
+s19406
+
+N/Users/iphone4/Documents/TestGoogleMap/TestGoogleMap_Prefix.pch
+c000000004D09A59C00000000000000C3
+t1292477852
+s195
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos/TestGoogleMap.app
+t1321247696
+s646
+
+N/Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos/TestGoogleMap.app.dSYM
+t1321247695
+s102
+
+N/Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos/TestGoogleMap.app/Bing Logo.png
+t1321247693
+s4156
+
+N/Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos/TestGoogleMap.app/Bing Logo@2x.png
+t1321247693
+s6933
+
+N/Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos/TestGoogleMap.app/GpsDisplay.png
+t1321247693
+s1511
+
+N/Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos/TestGoogleMap.app/GpsDisplay@2x.png
+t1321247693
+s2829
+
+N/Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos/TestGoogleMap.app/GpsDisplayHeading.png
+t1321247693
+s1889
+
+N/Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos/TestGoogleMap.app/GpsDisplayHeading@2x.png
+t1321247693
+s3410
+
+N/Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos/TestGoogleMap.app/Info.plist
+t1321247693
+s863
+
+N/Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos/TestGoogleMap.app/MainWindow-iPad.nib
+t1321247693
+s1693
+
+N/Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos/TestGoogleMap.app/MainWindow.nib
+t1321247693
+s1662
+
+N/Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos/TestGoogleMap.app/PkgInfo
+t1321247693
+s8
+
+N/Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos/TestGoogleMap.app/ResourceRules.plist
+t1321247693
+s485
+
+N/Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos/TestGoogleMap.app/TestGoogleMap
+t1321247695
+s2111808
+
+N/Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos/TestGoogleMap.app/TestGoogleMapViewController.nib
+t1321247693
+s2031
+
+N/Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos/TestGoogleMap.app/esri.png
+t1321247693
+s2337
+
+N/Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos/TestGoogleMap.app/esri@2x.png
+t1321247693
+s4659
+
+N/Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/Objects-normal/armv6/AGSGoogleMapLayer.o
+t1321247695
+s19284
+
+N/Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/Objects-normal/armv6/GoogleMapSchema.o
+t1321247695
+s19028
+
+N/Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/Objects-normal/armv6/GoogleMapTileOperation.o
+t1321247695
+s19932
+
+N/Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/Objects-normal/armv6/TestGoogleMap
+t1321247695
+s1100172
+
+N/Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/Objects-normal/armv6/TestGoogleMap.LinkFileList
+c000000004D8059FD0000000000000355
+t1300257277
+s853
+
+N/Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/Objects-normal/armv6/TestGoogleMapAppDelegate.o
+t1321247695
+s55212
+
+N/Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/Objects-normal/armv6/TestGoogleMapViewController.o
+t1321247695
+s54072
+
+N/Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/Objects-normal/armv6/main.o
+t1321247695
+s6452
+
+N/Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/Objects-normal/armv7/AGSGoogleMapLayer.o
+t1321247695
+s19100
+
+N/Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/Objects-normal/armv7/GoogleMapSchema.o
+t1321247695
+s18704
+
+N/Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/Objects-normal/armv7/GoogleMapTileOperation.o
+t1321247695
+s19600
+
+N/Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/Objects-normal/armv7/TestGoogleMap
+t1321247695
+s1005888
+
+N/Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/Objects-normal/armv7/TestGoogleMap.LinkFileList
+c000000004D8059FD0000000000000355
+t1300257277
+s853
+
+N/Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/Objects-normal/armv7/TestGoogleMapAppDelegate.o
+t1321247695
+s55144
+
+N/Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/Objects-normal/armv7/TestGoogleMapViewController.o
+t1321247695
+s53940
+
+N/Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/Objects-normal/armv7/main.o
+t1321247695
+s6436
+
+N/Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/TestGoogleMap.xcent
+t1300257281
+s374
+
+N/Users/iphone4/Documents/TestGoogleMap/esri.png
+c000000004D09A59C00000000000008FB
+t1292477852
+s2299
+
+N/Users/iphone4/Documents/TestGoogleMap/esri@2x.png
+c000000004D09A59C00000000000012C2
+t1292477852
+s4802
+
+N/Users/iphone4/Documents/TestGoogleMap/main.m
+c000000004D09A59C000000000000016B
+t1292477852
+s363
+i<UIKit/UIKit.h>
+
+N/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/ArcGIS.h
+c000000004CAB70E90000000000001509
+t1286303977
+s5385
+i"JSON.h"
+i"AGSCoding.h"
+i"AGSCredential.h"
+i"AGSTask.h"
+i"AGSGeometry.h"
+i"AGSLayer.h"
+i"AGSLayerView.h"
+i"AGSTiledLayer.h"
+i"AGSRenderer.h"
+i"AGSRequestOperation.h"
+i"AGSJSONRequestOperation.h"
+i"AGSImageRequestOperation.h"
+i"AGSSymbol.h"
+i"AGSEnvelope.h"
+i"AGSPoint.h"
+i"AGSMultipoint.h"
+i"AGSPolygon.h"
+i"AGSPolyline.h"
+i"AGSGeometryServiceTask.h"
+i"AGSGeoprocessor.h"
+i"AGSGPS.h"
+i"AGSAttachmentInfo.h"
+i"AGSBingMapLayer.h"
+i"AGSCallout.h"
+i"AGSClassBreak.h"
+i"AGSClassBreaksRenderer.h"
+i"AGSCompositeSymbol.h"
+i"AGSDynamicLayer.h"
+i"AGSDynamicLayerView.h"
+i"AGSDynamicMapServiceLayer.h"
+i"AGSEditResult.h"
+i"AGSQueryTask.h"
+i"AGSInfoTemplateDelegate.h"
+i"AGSGraphicsLayer.h"
+i"AGSFeatureLayer.h"
+i"AGSFeatureLayer+Editing.h"
+i"AGSFeatureSet.h"
+i"AGSFillSymbol.h"
+i"AGSFindTask.h"
+i"AGSGPResultLayer.h"
+i"AGSGeometryParameters.h"
+i"AGSGeometryServiceTask+AGSGeometryArray.h"
+i"AGSGeometryServiceTask+AreasAndLengths.h"
+i"AGSGeometryServiceTask.h"
+i"AGSGraphic.h"
+i"AGSIdentifyTask.h"
+i"AGSImageParameters.h"
+i"AGSImageServiceInfo.h"
+i"AGSImageServiceLayer.h"
+i"AGSLayerDefinition.h"
+i"AGSLayerDelegate.h"
+i"AGSLineSymbol.h"
+i"AGSLocator.h"
+i"AGSMapServiceInfo.h"
+i"AGSMapServiceLayerInfo.h"
+i"AGSMapView.h"
+i"AGSMarkerSymbol.h"
+i"AGSOpenStreetMapLayer.h"
+i"AGSPictureMarkerSymbol.h"
+i"AGSRequest.h"
+i"AGSSimpleRenderer.h"
+i"AGSTile.h"
+i"AGSTileOperation.h"
+i"AGSTileRequestOperation.h"
+i"AGSTiledLayerView.h"
+i"AGSTiledMapServiceLayer.h"
+i"AGSTime.h"
+i"AGSUniqueValue.h"
+i"AGSUniqueValueRenderer.h"
+i"Base64.h"
+i"AGSFeatureLayerModelObjects.h"
+i"JSONUtility.h"
+i"NSError+AGSAdditions.h"
+i"UIApplication+AGSAdditions.h"
+i"UIColor+AGSAdditions.h"
+i"UIDevice+AGSAdditions.h"
+
+N/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSAttachmentInfo.h
+c000000004CAB70E900000000000005B4
+t1286303977
+s1460
+i<Foundation/Foundation.h>
+
+N/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSBingMapLayer.h
+c000000004CAB70E90000000000000D32
+t1286303977
+s3378
+i<Foundation/Foundation.h>
+
+N/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSCallout.h
+c000000004CAB70EB0000000000001409
+t1286303979
+s5129
+i<UIKit/UIKit.h>
+
+N/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSClassBreak.h
+c000000004CAB70EA00000000000009DE
+t1286303978
+s2526
+i<Foundation/Foundation.h>
+
+N/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSClassBreaksRenderer.h
+c000000004CAB70EA000000000000088B
+t1286303978
+s2187
+i<Foundation/Foundation.h>
+
+N/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSCoding.h
+c000000004CAB70E9000000000000054B
+t1286303977
+s1355
+
+N/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSCompositeSymbol.h
+c000000004CAB70EA00000000000006A3
+t1286303978
+s1699
+i<Foundation/Foundation.h>
+
+N/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSCredential.h
+c000000004CAB70EA00000000000011F3
+t1286303978
+s4595
+i<Foundation/Foundation.h>
+
+N/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSDirectionGraphic.h
+c00000000000000000000000000000000
+t2
+s0
+i<Foundation/Foundation.h>
+
+N/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSDirectionSet.h
+c00000000000000000000000000000000
+t2
+s0
+i<Foundation/Foundation.h>
+
+N/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSDynamicLayer.h
+c000000004CAB70E90000000000001969
+t1286303977
+s6505
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSDynamicLayerView.h
+c000000004CAB70EC00000000000007A8
+t1286303980
+s1960
+i<UIKit/UIKit.h>
+
+N/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSDynamicMapServiceLayer.h
+c000000004CAB70EA0000000000001BA8
+t1286303978
+s7080
+i<Foundation/Foundation.h>
+
+N/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSEditResult.h
+c000000004CAB70E900000000000008E3
+t1286303977
+s2275
+i<Foundation/Foundation.h>
+
+N/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSEnumerations.h
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSEnvelope.h
+c000000004E0022070000000000001CBC
+t1308631559
+s7356
+i<Foundation/Foundation.h>
+
+N/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSFeatureLayer+Editing.h
+c000000004CAB70EB0000000000003CA5
+t1286303979
+s15525
+i<Foundation/Foundation.h>
+
+N/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSFeatureLayer.h
+c000000004CAB70EA00000000000066AE
+t1286303978
+s26286
+i<Foundation/Foundation.h>
+
+N/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSFeatureLayerModelObjects.h
+c000000004CAB70EA0000000000002634
+t1286303978
+s9780
+i<Foundation/Foundation.h>
+
+N/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSFeatureSet.h
+c000000004CAB70E90000000000000DF5
+t1286303977
+s3573
+i<Foundation/Foundation.h>
+
+N/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSFillSymbol.h
+c000000004CAB70EA00000000000007BD
+t1286303978
+s1981
+i<Foundation/Foundation.h>
+
+N/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSFindTask.h
+c000000004CAB70EB0000000000001E3A
+t1286303979
+s7738
+i<Foundation/Foundation.h>
+
+N/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSGPResultLayer.h
+c000000004CAB70EA0000000000000CCA
+t1286303978
+s3274
+i<Foundation/Foundation.h>
+
+N/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSGPS.h
+c000000004CAB70EC0000000000001120
+t1286303980
+s4384
+i<UIKit/UIKit.h>
+i<CoreLocation/CoreLocation.h>
+
+N/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSGeometry.h
+c000000004CAB70E90000000000004306
+t1286303977
+s17158
+i<Foundation/Foundation.h>
+i<QuartzCore/QuartzCore.h>
+
+N/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSGeometryEngine.h
+c00000000000000000000000000000000
+t2
+s0
+i<Foundation/Foundation.h>
+
+N/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSGeometryParameters.h
+c000000004CAB70EB0000000000004648
+t1286303979
+s17992
+
+N/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSGeometryServiceTask+AGSGeometryArray.h
+c000000004CAB70EB00000000000020EC
+t1286303979
+s8428
+
+N/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSGeometryServiceTask+AreasAndLengths.h
+c000000004CAB70EB00000000000005D1
+t1286303979
+s1489
+
+N/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSGeometryServiceTask.h
+c000000004CAB70EB00000000000062E6
+t1286303979
+s25318
+i<Foundation/Foundation.h>
+i"AGSGeometryParameters.h"
+
+N/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSGeoprocessor.h
+c000000004CAB70EB0000000000005B7F
+t1286303979
+s23423
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSGraphic.h
+c000000004CAB70E90000000000001155
+t1286303977
+s4437
+i<Foundation/Foundation.h>
+
+N/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSGraphicsLayer.h
+c000000004E02F0D30000000000001206
+t1308815571
+s4614
+i<Foundation/Foundation.h>
+
+N/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSIdentifyTask.h
+c000000004CAB70EB00000000000025FA
+t1286303979
+s9722
+i<Foundation/Foundation.h>
+
+N/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSImageParameters.h
+c000000004CAB70EA00000000000008B6
+t1286303978
+s2230
+i<Foundation/Foundation.h>
+
+N/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSImageRequestOperation.h
+c000000004CAB70EB000000000000036D
+t1286303979
+s877
+i<Foundation/Foundation.h>
+
+N/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSImageServiceIdentifyParameters.h
+c00000000000000000000000000000000
+t2
+s0
+i<Foundation/Foundation.h>
+
+N/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSImageServiceIdentifyResult.h
+c00000000000000000000000000000000
+t2
+s0
+i<Foundation/Foundation.h>
+
+N/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSImageServiceIdentifyTask.h
+c00000000000000000000000000000000
+t2
+s0
+i<Foundation/Foundation.h>
+
+N/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSImageServiceInfo.h
+c000000004CAB70EA0000000000000C1A
+t1286303978
+s3098
+i<Foundation/Foundation.h>
+
+N/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSImageServiceLayer.h
+c000000004CAB70EA00000000000010DB
+t1286303978
+s4315
+i<Foundation/Foundation.h>
+
+N/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSInfoTemplateDelegate.h
+c000000004CAB70E90000000000000CFB
+t1286303977
+s3323
+i<Foundation/Foundation.h>
+
+N/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSJSONRequestOperation.h
+c000000004CAB70EB0000000000000381
+t1286303979
+s897
+i<Foundation/Foundation.h>
+
+N/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSLabelClass.h
+c00000000000000000000000000000000
+t2
+s0
+i<Foundation/Foundation.h>
+
+N/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSLayer.h
+c000000004CAB70E90000000000000E5D
+t1286303977
+s3677
+i<Foundation/Foundation.h>
+i<QuartzCore/QuartzCore.h>
+
+N/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSLayerDefinition.h
+c000000004CAB70E900000000000009D2
+t1286303977
+s2514
+i<Foundation/Foundation.h>
+
+N/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSLayerDelegate.h
+c000000004CAB70EA000000000000078B
+t1286303978
+s1931
+
+N/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSLayerView.h
+c000000004CAB70EC0000000000000B69
+t1286303980
+s2921
+i<Foundation/Foundation.h>
+
+N/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSLineSymbol.h
+c000000004CAB70EA000000000000096E
+t1286303978
+s2414
+i<Foundation/Foundation.h>
+
+N/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSLocator.h
+c000000004CAB70EB0000000000002663
+t1286303979
+s9827
+i<Foundation/Foundation.h>
+
+N/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSMapServiceInfo.h
+c000000004CAB70EA0000000000001637
+t1286303978
+s5687
+i<Foundation/Foundation.h>
+
+N/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSMapServiceLayerInfo.h
+c000000004CAB70EA00000000000007A0
+t1286303978
+s1952
+i<Foundation/Foundation.h>
+
+N/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSMapView.h
+c000000004CAB70EC0000000000004FB3
+t1286303980
+s20403
+i<UIKit/UIKit.h>
+i"UIDevice+AGSAdditions.h"
+
+N/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSMarkerSymbol.h
+c000000004CAB70EB00000000000014D9
+t1286303979
+s5337
+i<Foundation/Foundation.h>
+
+N/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSMosaicRule.h
+c00000000000000000000000000000000
+t2
+s0
+i<Foundation/Foundation.h>
+
+N/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSMultipoint.h
+c000000004CAB70E90000000000000B57
+t1286303977
+s2903
+i<Foundation/Foundation.h>
+
+N/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSNALayerInfoBase.h
+c00000000000000000000000000000000
+t2
+s0
+i<Foundation/Foundation.h>
+
+N/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSNAMessage.h
+c00000000000000000000000000000000
+t2
+s0
+i<Foundation/Foundation.h>
+
+N/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSOpenStreetMapLayer.h
+c000000004CAB70EA00000000000008E8
+t1286303978
+s2280
+i<Foundation/Foundation.h>
+
+N/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSPictureFillSymbol.h
+c00000000000000000000000000000000
+t2
+s0
+i<Foundation/Foundation.h>
+
+N/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSPictureMarkerSymbol.h
+c000000004CAB70EB00000000000008FE
+t1286303979
+s2302
+i<Foundation/Foundation.h>
+
+N/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSPoint.h
+c000000004E01A03A0000000000000C9A
+t1308729402
+s3226
+i<Foundation/Foundation.h>
+i<QuartzCore/QuartzCore.h>
+
+N/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSPolygon.h
+c000000004CAB70E900000000000012EE
+t1286303977
+s4846
+i<Foundation/Foundation.h>
+
+N/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSPolyline.h
+c000000004CAB70E90000000000001196
+t1286303977
+s4502
+i<Foundation/Foundation.h>
+
+N/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSQueryTask.h
+c000000004CAB70EB0000000000005018
+t1286303979
+s20504
+i<Foundation/Foundation.h>
+
+N/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSRampInterpolator.h
+c00000000000000000000000000000000
+t2
+s0
+i<Foundation/Foundation.h>
+
+N/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSRasterFunction.h
+c00000000000000000000000000000000
+t2
+s0
+i<Foundation/Foundation.h>
+
+N/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSRenderer.h
+c000000004CAB70EA00000000000009BC
+t1286303978
+s2492
+i<Foundation/Foundation.h>
+
+N/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSRequest.h
+c000000004CAB70EB0000000000000CC7
+t1286303979
+s3271
+i<Foundation/Foundation.h>
+
+N/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSRequestOperation.h
+c000000004CAB70EB0000000000001EC5
+t1286303979
+s7877
+i<Foundation/Foundation.h>
+
+N/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSRouteLayerInfo.h
+c00000000000000000000000000000000
+t2
+s0
+i<Foundation/Foundation.h>
+
+N/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSRouteResult.h
+c00000000000000000000000000000000
+t2
+s0
+i<Foundation/Foundation.h>
+
+N/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSRouteTask.h
+c00000000000000000000000000000000
+t2
+s0
+i<Foundation/Foundation.h>
+
+N/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSRouteTaskParameters.h
+c00000000000000000000000000000000
+t2
+s0
+i<Foundation/Foundation.h>
+
+N/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSRouteTaskResult.h
+c00000000000000000000000000000000
+t2
+s0
+i<Foundation/Foundation.h>
+
+N/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSSimpleRenderer.h
+c000000004CAB70EA00000000000007AE
+t1286303978
+s1966
+i<Foundation/Foundation.h>
+
+N/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSSketchGraphicsLayer.h
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSStopGraphic.h
+c00000000000000000000000000000000
+t2
+s0
+i<Foundation/Foundation.h>
+
+N/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSSymbol.h
+c000000004CAB70EB0000000000000CDF
+t1286303979
+s3295
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSSymbolInterpolator.h
+c00000000000000000000000000000000
+t2
+s0
+i<Foundation/Foundation.h>
+
+N/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSTask.h
+c000000004CAB70EB00000000000006CE
+t1286303979
+s1742
+i<Foundation/Foundation.h>
+
+N/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSTemporalRenderer.h
+c00000000000000000000000000000000
+t2
+s0
+i<Foundation/Foundation.h>
+
+N/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSTextSymbol.h
+c00000000000000000000000000000000
+t2
+s0
+i<Foundation/Foundation.h>
+
+N/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSTile.h
+c000000004CAB70E90000000000000DB4
+t1286303977
+s3508
+i<Foundation/Foundation.h>
+
+N/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSTileOperation.h
+c000000004CAB70EA00000000000003B1
+t1286303978
+s945
+
+N/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSTileRequestOperation.h
+c000000004CAB70EB00000000000007E8
+t1286303979
+s2024
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSTiledLayer.h
+c000000004CAB70EA0000000000001FC6
+t1286303978
+s8134
+i<Foundation/Foundation.h>
+i<QuartzCore/QuartzCore.h>
+i<UIKit/UIKit.h>
+
+N/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSTiledLayerView.h
+c000000004CAB70EC0000000000000B7A
+t1286303980
+s2938
+i<UIKit/UIKit.h>
+
+N/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSTiledMapServiceLayer.h
+c000000004CAB70EA000000000000168C
+t1286303978
+s5772
+i<Foundation/Foundation.h>
+
+N/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSTime.h
+c000000004CAB70E9000000000000153B
+t1286303977
+s5435
+i<Foundation/Foundation.h>
+
+N/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSTimeClassBreaksAger.h
+c00000000000000000000000000000000
+t2
+s0
+i<Foundation/Foundation.h>
+i"AGSTime.h"
+
+N/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSUniqueValue.h
+c000000004CAB70EA0000000000000897
+t1286303978
+s2199
+i<Foundation/Foundation.h>
+
+N/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSUniqueValueRenderer.h
+c000000004CAB70EA0000000000000B2F
+t1286303978
+s2863
+i<Foundation/Foundation.h>
+
+N/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSWebMap.h
+c00000000000000000000000000000000
+t2
+s0
+i<Foundation/Foundation.h>
+
+N/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/Base64.h
+c000000004CAB70E9000000000000079C
+t1286303977
+s1948
+i<Foundation/Foundation.h>
+
+N/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/JSON.h
+c000000004CAB70FC0000000000000C30
+t1286303996
+s3120
+i"SBJsonParser.h"
+i"SBJsonWriter.h"
+i"NSObject+SBJSON.h"
+i"NSString+SBJSON.h"
+i<JSON/SBJsonParser.h>
+i<JSON/SBJsonWriter.h>
+i<JSON/NSObject+SBJSON.h>
+i<JSON/NSString+SBJSON.h>
+
+N/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/JSONUtility.h
+c000000004CAB70E900000000000007A6
+t1286303977
+s1958
+i<Foundation/Foundation.h>
+
+N/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/NSError+AGSAdditions.h
+c000000004CAB70EB0000000000000407
+t1286303979
+s1031
+i<Foundation/Foundation.h>
+
+N/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/NSObject+SBJSON.h
+c000000004CAB70FC0000000000000894
+t1286303996
+s2196
+i<Foundation/Foundation.h>
+
+N/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/NSString+SBJSON.h
+c000000004CAB70FC0000000000000820
+t1286303996
+s2080
+i<Foundation/Foundation.h>
+
+N/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/SBJsonBase.h
+c000000004CAB70FC0000000000000BD8
+t1286303996
+s3032
+i<Foundation/Foundation.h>
+
+N/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/SBJsonParser.h
+c000000004CAB70FC0000000000000CE5
+t1286303996
+s3301
+i<Foundation/Foundation.h>
+i"SBJsonBase.h"
+
+N/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/SBJsonWriter.h
+c000000004CAB70FC0000000000001258
+t1286303996
+s4696
+i<Foundation/Foundation.h>
+i"SBJsonBase.h"
+
+N/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/UIApplication+AGSAdditions.h
+c000000004CAB70EB000000000000062E
+t1286303979
+s1582
+i<UIKit/UIKit.h>
+
+N/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/UIColor+AGSAdditions.h
+c000000004CAB70EB000000000000058D
+t1286303979
+s1421
+i<Foundation/Foundation.h>
+i<UIKit/UIColor.h>
+
+N/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/UIDevice+AGSAdditions.h
+c000000004CAB70E90000000000000727
+t1286303977
+s1831
+i<UIKit/UIKit.h>
+
+N/Users/iphone4/Library/SDKs/ArcGIS/iphoneos.sdk/usr/local/lib/libArcGIS.a
+c00000000000000000000000000000000
+t2
+s0
+
+N/var/folders/ae/aeTYvJuLFYitRhVe3vxlFU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TestGoogleMap_Prefix-acgxycoojjrfrecrselyopvxcifh/TestGoogleMap_Prefix.pch.gch
+t1321247694
+s10000088
+
+N/var/folders/ae/aeTYvJuLFYitRhVe3vxlFU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TestGoogleMap_Prefix-aeopapwdktdeqacomhwrgxygedax/TestGoogleMap_Prefix.pch.gch
+t1321247694
+s10467032
+
+N/var/folders/ae/aeTYvJuLFYitRhVe3vxlFU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TestGoogleMap_Prefix-djupctzyprkrucbzqyeysrcivvfa/TestGoogleMap_Prefix.pch.gch
+t1300257278
+s10000088
+
+N/var/folders/ae/aeTYvJuLFYitRhVe3vxlFU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TestGoogleMap_Prefix-geqcomuqpszfgpcwfmntzdfhxqcu/TestGoogleMap_Prefix.pch.gch
+t1300257278
+s10467032
+
+N/xcode3.2.5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
+c000000004EB6537D0000000000000110
+t1320571773
+s272
+
+N/xcode3.2.5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+c000000004CB3DFCF00000000000001E5
+t1286856655
+s485
+
+N/xcode3.2.5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC10EF500000000003532B0
+t1287720693
+s3486384
+
+N/xcode3.2.5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c000000004CC11B5300000000000D96F0
+t1287723859
+s890608
+
+N/xcode3.2.5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.h
+c000000004CC11B4300000000000001D0
+t1287723843
+s464
+
+N/xcode3.2.5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC10F4700000000003E1F20
+t1287720775
+s4071200
+
+N/xcode3.2.5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC10F1C0000000000001466
+t1287720732
+s5222
+
+N/xcode3.2.5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004CC1111C00000000000000C4
+t1287721244
+s196
+
+N/xcode3.2.5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004CC1127D0000000000267530
+t1287721597
+s2520368
+
+N/xcode3.2.5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIColor.h
+c000000004CC11AE700000000000009FD
+t1287723751
+s2557
+
+N/xcode3.2.5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC11AE60000000000000AA1
+t1287723750
+s2721
+
+N/xcode3.2.5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC11B750000000000C769F0
+t1287723893
+s13068784
+
+N/xcode3.2.5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/lib/libz.dylib
+c000000004CC105400000000000020FF0
+t1287718208
+s135152
+
+NTestGoogleMap-Info.plist
+c000000004D09A59C00000000000003CE
+t1292477852
+s974
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies342940493#342940493#0(199"[BWARN]Code Sign warning: code-signing identity 'iPhone Developer' matches multiple identities : 'iPhone Developer', 'iPhone Developer: baocai zhang (KMUTXAQ68P)' -- 'iPhone Developer' will be used.1(22@191"Code Sign warning: code-signing identity 'iPhone Developer' matches multiple identities : 'iPhone Developer', 'iPhone Developer: baocai zhang (KMUTXAQ68P)' -- 'iPhone Developer' will be used.342940493#18446744073709551615#0#0(1@0"0(0#1#0"8617305056#0"0#
+
+CCodeSign /Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos/TestGoogleMap.app
+s342940495.899314
+e342940496.155325
+r1
+xCodeSign
+x/Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos/TestGoogleMap.app
+lSLF07#2@47"CodeSign build/Debug-iphoneos/TestGoogleMap.app342940495#342940496#0(0"0(0#0#77"/Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos/TestGoogleMap.app8621456288#519"    cd /Users/iphone4/Documents/TestGoogleMap    setenv PATH "/xcode3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /xcode3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer" --resource-rules=/Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos/TestGoogleMap.app/ResourceRules.plist /Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos/TestGoogleMap.app0#
+
+CCompileC build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/Objects-normal/armv6/AGSGoogleMapLayer.o /Users/iphone4/Documents/TestGoogleMap/Classes/AGSGoogleMapLayer.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s342940494.958817
+e342940495.145972
+r1
+xCompileC
+xbuild/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/Objects-normal/armv6/AGSGoogleMapLayer.o
+x/Users/iphone4/Documents/TestGoogleMap/Classes/AGSGoogleMapLayer.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/iphone4/Documents/TestGoogleMap/Classes/AGSGoogleMapLayer.m: In function '-[AGSGoogleMapLayer retrieveImageAsyncForTile:]':
+o/Users/iphone4/Documents/TestGoogleMap/Classes/AGSGoogleMapLayer.m:79: warning: format not a string literal and no format arguments
+o/Users/iphone4/Documents/TestGoogleMap/Classes/AGSGoogleMapLayer.m: In function '-[AGSGoogleMapLayer didFinishOperation:]':
+o/Users/iphone4/Documents/TestGoogleMap/Classes/AGSGoogleMapLayer.m:91: warning: format not a string literal and no format arguments
+lSLF07#2@74"Compile /Users/iphone4/Documents/TestGoogleMap/Classes/AGSGoogleMapLayer.m342940494#342940495#0(519"/Users/iphone4/Documents/TestGoogleMap/Classes/AGSGoogleMapLayer.m: In function '-[AGSGoogleMapLayer retrieveImageAsyncForTile:]':/Users/iphone4/Documents/TestGoogleMap/Classes/AGSGoogleMapLayer.m:79: warning: format not a string literal and no format arguments/Users/iphone4/Documents/TestGoogleMap/Classes/AGSGoogleMapLayer.m: In function '-[AGSGoogleMapLayer didFinishOperation:]':/Users/iphone4/Documents/TestGoogleMap/Classes/AGSGoogleMapLayer.m:91: warning: format not a string literal and no format arguments2(22@51"Format not a string literal and no format arguments342940495#131#132#0(6@66"/Users/iphone4/Documents/TestGoogleMap/Classes/AGSGoogleMapLayer.m321952857#79#0#79#0#51"format not a string literal and no format arguments0(22@51"Format not a string literal and no format arguments342940495#387#132#0(6@66"/Users/iphone4/Documents/TestGoogleMap/Classes/AGSGoogleMapLayer.m321952857#91#0#91#0#51"format not a string literal and no format arguments0(0#0#66"/Users/iphone4/Documents/TestGoogleMap/Classes/AGSGoogleMapLayer.m8622234144#2028"    cd /Users/iphone4/Documents/TestGoogleMap    setenv LANG en_US.US-ASCII    setenv PATH "/xcode3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /xcode3.2.5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/TestGoogleMap-generated-files.hmap -I/Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/TestGoogleMap-own-target-headers.hmap -I/Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/TestGoogleMap-all-target-headers.hmap -iquote /Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/TestGoogleMap-project-headers.hmap -F/Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos -iquote/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include -iquote/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private -I/Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos/include -I/Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/DerivedSources/armv6 -I/Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/DerivedSources -include /var/folders/ae/aeTYvJuLFYitRhVe3vxlFU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TestGoogleMap_Prefix-acgxycoojjrfrecrselyopvxcifh/TestGoogleMap_Prefix.pch -c /Users/iphone4/Documents/TestGoogleMap/Classes/AGSGoogleMapLayer.m -o /Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/Objects-normal/armv6/AGSGoogleMapLayer.o0#
+
+CCompileC build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/Objects-normal/armv6/GoogleMapSchema.o /Users/iphone4/Documents/TestGoogleMap/Classes/GoogleMapSchema.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s342940495.014080
+e342940495.175735
+r1
+xCompileC
+xbuild/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/Objects-normal/armv6/GoogleMapSchema.o
+x/Users/iphone4/Documents/TestGoogleMap/Classes/GoogleMapSchema.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/iphone4/Documents/TestGoogleMap/Classes/GoogleMapSchema.m342940495#342940495#0(0"0(0#0#64"/Users/iphone4/Documents/TestGoogleMap/Classes/GoogleMapSchema.m8622093536#2024"    cd /Users/iphone4/Documents/TestGoogleMap    setenv LANG en_US.US-ASCII    setenv PATH "/xcode3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /xcode3.2.5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/TestGoogleMap-generated-files.hmap -I/Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/TestGoogleMap-own-target-headers.hmap -I/Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/TestGoogleMap-all-target-headers.hmap -iquote /Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/TestGoogleMap-project-headers.hmap -F/Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos -iquote/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include -iquote/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private -I/Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos/include -I/Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/DerivedSources/armv6 -I/Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/DerivedSources -include /var/folders/ae/aeTYvJuLFYitRhVe3vxlFU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TestGoogleMap_Prefix-acgxycoojjrfrecrselyopvxcifh/TestGoogleMap_Prefix.pch -c /Users/iphone4/Documents/TestGoogleMap/Classes/GoogleMapSchema.m -o /Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/Objects-normal/armv6/GoogleMapSchema.o0#
+
+CCompileC build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/Objects-normal/armv6/GoogleMapTileOperation.o /Users/iphone4/Documents/TestGoogleMap/Classes/GoogleMapTileOperation.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s342940495.093945
+e342940495.285823
+r1
+xCompileC
+xbuild/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/Objects-normal/armv6/GoogleMapTileOperation.o
+x/Users/iphone4/Documents/TestGoogleMap/Classes/GoogleMapTileOperation.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/iphone4/Documents/TestGoogleMap/Classes/GoogleMapTileOperation.m: In function '-[GoogleMapTileOperation main]':
+o/Users/iphone4/Documents/TestGoogleMap/Classes/GoogleMapTileOperation.m:50: warning: format not a string literal and no format arguments
+lSLF07#2@79"Compile /Users/iphone4/Documents/TestGoogleMap/Classes/GoogleMapTileOperation.m342940495#342940495#0(256"/Users/iphone4/Documents/TestGoogleMap/Classes/GoogleMapTileOperation.m: In function '-[GoogleMapTileOperation main]':/Users/iphone4/Documents/TestGoogleMap/Classes/GoogleMapTileOperation.m:50: warning: format not a string literal and no format arguments1(22@51"Format not a string literal and no format arguments342940495#119#137#0(6@71"/Users/iphone4/Documents/TestGoogleMap/Classes/GoogleMapTileOperation.m321951817#50#0#50#0#51"format not a string literal and no format arguments0(0#0#71"/Users/iphone4/Documents/TestGoogleMap/Classes/GoogleMapTileOperation.m8619991456#2038"    cd /Users/iphone4/Documents/TestGoogleMap    setenv LANG en_US.US-ASCII    setenv PATH "/xcode3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /xcode3.2.5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/TestGoogleMap-generated-files.hmap -I/Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/TestGoogleMap-own-target-headers.hmap -I/Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/TestGoogleMap-all-target-headers.hmap -iquote /Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/TestGoogleMap-project-headers.hmap -F/Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos -iquote/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include -iquote/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private -I/Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos/include -I/Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/DerivedSources/armv6 -I/Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/DerivedSources -include /var/folders/ae/aeTYvJuLFYitRhVe3vxlFU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TestGoogleMap_Prefix-acgxycoojjrfrecrselyopvxcifh/TestGoogleMap_Prefix.pch -c /Users/iphone4/Documents/TestGoogleMap/Classes/GoogleMapTileOperation.m -o /Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/Objects-normal/armv6/GoogleMapTileOperation.o0#
+
+CCompileC build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/Objects-normal/armv6/TestGoogleMapAppDelegate.o /Users/iphone4/Documents/TestGoogleMap/Classes/TestGoogleMapAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s342940494.956784
+e342940495.114490
+r1
+xCompileC
+xbuild/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/Objects-normal/armv6/TestGoogleMapAppDelegate.o
+x/Users/iphone4/Documents/TestGoogleMap/Classes/TestGoogleMapAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/iphone4/Documents/TestGoogleMap/Classes/TestGoogleMapAppDelegate.m342940494#342940495#0(0"0(0#0#73"/Users/iphone4/Documents/TestGoogleMap/Classes/TestGoogleMapAppDelegate.m8622365920#2042"    cd /Users/iphone4/Documents/TestGoogleMap    setenv LANG en_US.US-ASCII    setenv PATH "/xcode3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /xcode3.2.5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/TestGoogleMap-generated-files.hmap -I/Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/TestGoogleMap-own-target-headers.hmap -I/Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/TestGoogleMap-all-target-headers.hmap -iquote /Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/TestGoogleMap-project-headers.hmap -F/Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos -iquote/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include -iquote/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private -I/Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos/include -I/Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/DerivedSources/armv6 -I/Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/DerivedSources -include /var/folders/ae/aeTYvJuLFYitRhVe3vxlFU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TestGoogleMap_Prefix-acgxycoojjrfrecrselyopvxcifh/TestGoogleMap_Prefix.pch -c /Users/iphone4/Documents/TestGoogleMap/Classes/TestGoogleMapAppDelegate.m -o /Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/Objects-normal/armv6/TestGoogleMapAppDelegate.o0#
+
+CCompileC build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/Objects-normal/armv6/TestGoogleMapViewController.o /Users/iphone4/Documents/TestGoogleMap/Classes/TestGoogleMapViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s342940494.957773
+e342940495.093798
+r1
+xCompileC
+xbuild/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/Objects-normal/armv6/TestGoogleMapViewController.o
+x/Users/iphone4/Documents/TestGoogleMap/Classes/TestGoogleMapViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/iphone4/Documents/TestGoogleMap/Classes/TestGoogleMapViewController.m342940494#342940495#0(0"0(0#0#76"/Users/iphone4/Documents/TestGoogleMap/Classes/TestGoogleMapViewController.m8622285440#2048"    cd /Users/iphone4/Documents/TestGoogleMap    setenv LANG en_US.US-ASCII    setenv PATH "/xcode3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /xcode3.2.5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/TestGoogleMap-generated-files.hmap -I/Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/TestGoogleMap-own-target-headers.hmap -I/Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/TestGoogleMap-all-target-headers.hmap -iquote /Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/TestGoogleMap-project-headers.hmap -F/Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos -iquote/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include -iquote/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private -I/Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos/include -I/Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/DerivedSources/armv6 -I/Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/DerivedSources -include /var/folders/ae/aeTYvJuLFYitRhVe3vxlFU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TestGoogleMap_Prefix-acgxycoojjrfrecrselyopvxcifh/TestGoogleMap_Prefix.pch -c /Users/iphone4/Documents/TestGoogleMap/Classes/TestGoogleMapViewController.m -o /Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/Objects-normal/armv6/TestGoogleMapViewController.o0#
+
+CCompileC build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/Objects-normal/armv6/main.o /Users/iphone4/Documents/TestGoogleMap/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s342940494.955792
+e342940495.013925
+r1
+xCompileC
+xbuild/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/Objects-normal/armv6/main.o
+x/Users/iphone4/Documents/TestGoogleMap/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@53"Compile /Users/iphone4/Documents/TestGoogleMap/main.m342940494#342940495#0(0"0(0#0#45"/Users/iphone4/Documents/TestGoogleMap/main.m8623606848#1994"    cd /Users/iphone4/Documents/TestGoogleMap    setenv LANG en_US.US-ASCII    setenv PATH "/xcode3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /xcode3.2.5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/TestGoogleMap-generated-files.hmap -I/Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/TestGoogleMap-own-target-headers.hmap -I/Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/TestGoogleMap-all-target-headers.hmap -iquote /Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/TestGoogleMap-project-headers.hmap -F/Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos -iquote/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include -iquote/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private -I/Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos/include -I/Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/DerivedSources/armv6 -I/Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/DerivedSources -include /var/folders/ae/aeTYvJuLFYitRhVe3vxlFU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TestGoogleMap_Prefix-acgxycoojjrfrecrselyopvxcifh/TestGoogleMap_Prefix.pch -c /Users/iphone4/Documents/TestGoogleMap/main.m -o /Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/Objects-normal/armv6/main.o0#
+
+CCompileC build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/Objects-normal/armv7/AGSGoogleMapLayer.o /Users/iphone4/Documents/TestGoogleMap/Classes/AGSGoogleMapLayer.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s342940495.175866
+e342940495.352602
+r1
+xCompileC
+xbuild/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/Objects-normal/armv7/AGSGoogleMapLayer.o
+x/Users/iphone4/Documents/TestGoogleMap/Classes/AGSGoogleMapLayer.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/iphone4/Documents/TestGoogleMap/Classes/AGSGoogleMapLayer.m: In function '-[AGSGoogleMapLayer retrieveImageAsyncForTile:]':
+o/Users/iphone4/Documents/TestGoogleMap/Classes/AGSGoogleMapLayer.m:79: warning: format not a string literal and no format arguments
+o/Users/iphone4/Documents/TestGoogleMap/Classes/AGSGoogleMapLayer.m: In function '-[AGSGoogleMapLayer didFinishOperation:]':
+o/Users/iphone4/Documents/TestGoogleMap/Classes/AGSGoogleMapLayer.m:91: warning: format not a string literal and no format arguments
+lSLF07#2@74"Compile /Users/iphone4/Documents/TestGoogleMap/Classes/AGSGoogleMapLayer.m342940495#342940495#0(519"/Users/iphone4/Documents/TestGoogleMap/Classes/AGSGoogleMapLayer.m: In function '-[AGSGoogleMapLayer retrieveImageAsyncForTile:]':/Users/iphone4/Documents/TestGoogleMap/Classes/AGSGoogleMapLayer.m:79: warning: format not a string literal and no format arguments/Users/iphone4/Documents/TestGoogleMap/Classes/AGSGoogleMapLayer.m: In function '-[AGSGoogleMapLayer didFinishOperation:]':/Users/iphone4/Documents/TestGoogleMap/Classes/AGSGoogleMapLayer.m:91: warning: format not a string literal and no format arguments2(22@51"Format not a string literal and no format arguments342940495#131#132#0(6@66"/Users/iphone4/Documents/TestGoogleMap/Classes/AGSGoogleMapLayer.m321952857#79#0#79#0#51"format not a string literal and no format arguments0(22@51"Format not a string literal and no format arguments342940495#387#132#0(6@66"/Users/iphone4/Documents/TestGoogleMap/Classes/AGSGoogleMapLayer.m321952857#91#0#91#0#51"format not a string literal and no format arguments0(0#0#66"/Users/iphone4/Documents/TestGoogleMap/Classes/AGSGoogleMapLayer.m8618514208#2028"    cd /Users/iphone4/Documents/TestGoogleMap    setenv LANG en_US.US-ASCII    setenv PATH "/xcode3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /xcode3.2.5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/TestGoogleMap-generated-files.hmap -I/Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/TestGoogleMap-own-target-headers.hmap -I/Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/TestGoogleMap-all-target-headers.hmap -iquote /Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/TestGoogleMap-project-headers.hmap -F/Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos -iquote/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include -iquote/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private -I/Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos/include -I/Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/DerivedSources/armv7 -I/Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/DerivedSources -include /var/folders/ae/aeTYvJuLFYitRhVe3vxlFU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TestGoogleMap_Prefix-aeopapwdktdeqacomhwrgxygedax/TestGoogleMap_Prefix.pch -c /Users/iphone4/Documents/TestGoogleMap/Classes/AGSGoogleMapLayer.m -o /Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/Objects-normal/armv7/AGSGoogleMapLayer.o0#
+
+CCompileC build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/Objects-normal/armv7/GoogleMapSchema.o /Users/iphone4/Documents/TestGoogleMap/Classes/GoogleMapSchema.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s342940495.318031
+e342940495.465429
+r1
+xCompileC
+xbuild/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/Objects-normal/armv7/GoogleMapSchema.o
+x/Users/iphone4/Documents/TestGoogleMap/Classes/GoogleMapSchema.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/iphone4/Documents/TestGoogleMap/Classes/GoogleMapSchema.m342940495#342940495#0(0"0(0#0#64"/Users/iphone4/Documents/TestGoogleMap/Classes/GoogleMapSchema.m8622285056#2024"    cd /Users/iphone4/Documents/TestGoogleMap    setenv LANG en_US.US-ASCII    setenv PATH "/xcode3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /xcode3.2.5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/TestGoogleMap-generated-files.hmap -I/Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/TestGoogleMap-own-target-headers.hmap -I/Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/TestGoogleMap-all-target-headers.hmap -iquote /Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/TestGoogleMap-project-headers.hmap -F/Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos -iquote/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include -iquote/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private -I/Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos/include -I/Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/DerivedSources/armv7 -I/Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/DerivedSources -include /var/folders/ae/aeTYvJuLFYitRhVe3vxlFU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TestGoogleMap_Prefix-aeopapwdktdeqacomhwrgxygedax/TestGoogleMap_Prefix.pch -c /Users/iphone4/Documents/TestGoogleMap/Classes/GoogleMapSchema.m -o /Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/Objects-normal/armv7/GoogleMapSchema.o0#
+
+CCompileC build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/Objects-normal/armv7/GoogleMapTileOperation.o /Users/iphone4/Documents/TestGoogleMap/Classes/GoogleMapTileOperation.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s342940495.336791
+e342940495.466996
+r1
+xCompileC
+xbuild/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/Objects-normal/armv7/GoogleMapTileOperation.o
+x/Users/iphone4/Documents/TestGoogleMap/Classes/GoogleMapTileOperation.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/iphone4/Documents/TestGoogleMap/Classes/GoogleMapTileOperation.m: In function '-[GoogleMapTileOperation main]':
+o/Users/iphone4/Documents/TestGoogleMap/Classes/GoogleMapTileOperation.m:50: warning: format not a string literal and no format arguments
+lSLF07#2@79"Compile /Users/iphone4/Documents/TestGoogleMap/Classes/GoogleMapTileOperation.m342940495#342940495#0(256"/Users/iphone4/Documents/TestGoogleMap/Classes/GoogleMapTileOperation.m: In function '-[GoogleMapTileOperation main]':/Users/iphone4/Documents/TestGoogleMap/Classes/GoogleMapTileOperation.m:50: warning: format not a string literal and no format arguments1(22@51"Format not a string literal and no format arguments342940495#119#137#0(6@71"/Users/iphone4/Documents/TestGoogleMap/Classes/GoogleMapTileOperation.m321951817#50#0#50#0#51"format not a string literal and no format arguments0(0#0#71"/Users/iphone4/Documents/TestGoogleMap/Classes/GoogleMapTileOperation.m8622180192#2038"    cd /Users/iphone4/Documents/TestGoogleMap    setenv LANG en_US.US-ASCII    setenv PATH "/xcode3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /xcode3.2.5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/TestGoogleMap-generated-files.hmap -I/Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/TestGoogleMap-own-target-headers.hmap -I/Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/TestGoogleMap-all-target-headers.hmap -iquote /Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/TestGoogleMap-project-headers.hmap -F/Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos -iquote/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include -iquote/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private -I/Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos/include -I/Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/DerivedSources/armv7 -I/Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/DerivedSources -include /var/folders/ae/aeTYvJuLFYitRhVe3vxlFU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TestGoogleMap_Prefix-aeopapwdktdeqacomhwrgxygedax/TestGoogleMap_Prefix.pch -c /Users/iphone4/Documents/TestGoogleMap/Classes/GoogleMapTileOperation.m -o /Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/Objects-normal/armv7/GoogleMapTileOperation.o0#
+
+CCompileC build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/Objects-normal/armv7/TestGoogleMapAppDelegate.o /Users/iphone4/Documents/TestGoogleMap/Classes/TestGoogleMapAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s342940495.146128
+e342940495.317886
+r1
+xCompileC
+xbuild/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/Objects-normal/armv7/TestGoogleMapAppDelegate.o
+x/Users/iphone4/Documents/TestGoogleMap/Classes/TestGoogleMapAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/iphone4/Documents/TestGoogleMap/Classes/TestGoogleMapAppDelegate.m342940495#342940495#0(0"0(0#0#73"/Users/iphone4/Documents/TestGoogleMap/Classes/TestGoogleMapAppDelegate.m8618911840#2042"    cd /Users/iphone4/Documents/TestGoogleMap    setenv LANG en_US.US-ASCII    setenv PATH "/xcode3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /xcode3.2.5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/TestGoogleMap-generated-files.hmap -I/Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/TestGoogleMap-own-target-headers.hmap -I/Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/TestGoogleMap-all-target-headers.hmap -iquote /Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/TestGoogleMap-project-headers.hmap -F/Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos -iquote/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include -iquote/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private -I/Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos/include -I/Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/DerivedSources/armv7 -I/Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/DerivedSources -include /var/folders/ae/aeTYvJuLFYitRhVe3vxlFU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TestGoogleMap_Prefix-aeopapwdktdeqacomhwrgxygedax/TestGoogleMap_Prefix.pch -c /Users/iphone4/Documents/TestGoogleMap/Classes/TestGoogleMapAppDelegate.m -o /Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/Objects-normal/armv7/TestGoogleMapAppDelegate.o0#
+
+CCompileC build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/Objects-normal/armv7/TestGoogleMapViewController.o /Users/iphone4/Documents/TestGoogleMap/Classes/TestGoogleMapViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s342940495.174134
+e342940495.336633
+r1
+xCompileC
+xbuild/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/Objects-normal/armv7/TestGoogleMapViewController.o
+x/Users/iphone4/Documents/TestGoogleMap/Classes/TestGoogleMapViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/iphone4/Documents/TestGoogleMap/Classes/TestGoogleMapViewController.m342940495#342940495#0(0"0(0#0#76"/Users/iphone4/Documents/TestGoogleMap/Classes/TestGoogleMapViewController.m8618688896#2048"    cd /Users/iphone4/Documents/TestGoogleMap    setenv LANG en_US.US-ASCII    setenv PATH "/xcode3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /xcode3.2.5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/TestGoogleMap-generated-files.hmap -I/Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/TestGoogleMap-own-target-headers.hmap -I/Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/TestGoogleMap-all-target-headers.hmap -iquote /Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/TestGoogleMap-project-headers.hmap -F/Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos -iquote/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include -iquote/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private -I/Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos/include -I/Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/DerivedSources/armv7 -I/Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/DerivedSources -include /var/folders/ae/aeTYvJuLFYitRhVe3vxlFU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TestGoogleMap_Prefix-aeopapwdktdeqacomhwrgxygedax/TestGoogleMap_Prefix.pch -c /Users/iphone4/Documents/TestGoogleMap/Classes/TestGoogleMapViewController.m -o /Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/Objects-normal/armv7/TestGoogleMapViewController.o0#
+
+CCompileC build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/Objects-normal/armv7/main.o /Users/iphone4/Documents/TestGoogleMap/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s342940495.114651
+e342940495.173846
+r1
+xCompileC
+xbuild/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/Objects-normal/armv7/main.o
+x/Users/iphone4/Documents/TestGoogleMap/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@53"Compile /Users/iphone4/Documents/TestGoogleMap/main.m342940495#342940495#0(0"0(0#0#45"/Users/iphone4/Documents/TestGoogleMap/main.m8619561120#1994"    cd /Users/iphone4/Documents/TestGoogleMap    setenv LANG en_US.US-ASCII    setenv PATH "/xcode3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /xcode3.2.5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/TestGoogleMap-generated-files.hmap -I/Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/TestGoogleMap-own-target-headers.hmap -I/Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/TestGoogleMap-all-target-headers.hmap -iquote /Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/TestGoogleMap-project-headers.hmap -F/Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos -iquote/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include -iquote/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private -I/Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos/include -I/Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/DerivedSources/armv7 -I/Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/DerivedSources -include /var/folders/ae/aeTYvJuLFYitRhVe3vxlFU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TestGoogleMap_Prefix-aeopapwdktdeqacomhwrgxygedax/TestGoogleMap_Prefix.pch -c /Users/iphone4/Documents/TestGoogleMap/main.m -o /Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/Objects-normal/armv7/main.o0#
+
+CCompileXIB /Users/iphone4/Documents/TestGoogleMap/MainWindow.xib
+s342940493.454984
+e342940493.914836
+r1
+xCompileXIB
+x/Users/iphone4/Documents/TestGoogleMap/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib342940493#342940493#0(0"0(0#0#53"/Users/iphone4/Documents/TestGoogleMap/MainWindow.xib8618553696#554"    cd /Users/iphone4/Documents/TestGoogleMap    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/xcode3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode3.2.5/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos/TestGoogleMap.app/MainWindow.nib /Users/iphone4/Documents/TestGoogleMap/MainWindow.xib --sdk /xcode3.2.5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB /Users/iphone4/Documents/TestGoogleMap/Resources-iPad/MainWindow-iPad.xib
+s342940493.570847
+e342940494.001997
+r1
+xCompileXIB
+x/Users/iphone4/Documents/TestGoogleMap/Resources-iPad/MainWindow-iPad.xib
+lSLF07#2@45"CompileXIB Resources-iPad/MainWindow-iPad.xib342940493#342940494#0(0"0(0#0#73"/Users/iphone4/Documents/TestGoogleMap/Resources-iPad/MainWindow-iPad.xib8623532288#579"    cd /Users/iphone4/Documents/TestGoogleMap    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/xcode3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode3.2.5/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos/TestGoogleMap.app/MainWindow-iPad.nib /Users/iphone4/Documents/TestGoogleMap/Resources-iPad/MainWindow-iPad.xib --sdk /xcode3.2.5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB /Users/iphone4/Documents/TestGoogleMap/TestGoogleMapViewController.xib
+s342940493.456066
+e342940493.962091
+r1
+xCompileXIB
+x/Users/iphone4/Documents/TestGoogleMap/TestGoogleMapViewController.xib
+lSLF07#2@42"CompileXIB TestGoogleMapViewController.xib342940493#342940493#0(0"0(0#0#70"/Users/iphone4/Documents/TestGoogleMap/TestGoogleMapViewController.xib8621515776#588"    cd /Users/iphone4/Documents/TestGoogleMap    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/xcode3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode3.2.5/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos/TestGoogleMap.app/TestGoogleMapViewController.nib /Users/iphone4/Documents/TestGoogleMap/TestGoogleMapViewController.xib --sdk /xcode3.2.5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCopyPNGFile "/Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos/TestGoogleMap.app/Bing Logo.png" "Bing Logo.png"
+s342940493.457174
+e342940493.525913
+r1
+xCopyPNGFile
+x/Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos/TestGoogleMap.app/Bing Logo.png
+xBing Logo.png
+lSLF07#2@82"CopyPNGFile "build/Debug-iphoneos/TestGoogleMap.app/Bing Logo.png" "Bing Logo.png"342940493#342940493#0(0"0(0#0#52"/Users/iphone4/Documents/TestGoogleMap/Bing Logo.png8618839520#580"    cd /Users/iphone4/Documents/TestGoogleMap    setenv COPY_COMMAND /xcode3.2.5/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/xcode3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/xcode3.2.5/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/iphone4/Documents/TestGoogleMap/Bing Logo.png" "/Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos/TestGoogleMap.app/Bing Logo.png"0#
+
+CCopyPNGFile "/Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos/TestGoogleMap.app/Bing Logo@2x.png" "Bing Logo@2x.png"
+s342940493.458386
+e342940493.548269
+r1
+xCopyPNGFile
+x/Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos/TestGoogleMap.app/Bing Logo@2x.png
+xBing Logo@2x.png
+lSLF07#2@88"CopyPNGFile "build/Debug-iphoneos/TestGoogleMap.app/Bing Logo@2x.png" "Bing Logo@2x.png"342940493#342940493#0(0"0(0#0#55"/Users/iphone4/Documents/TestGoogleMap/Bing Logo@2x.png8614437856#586"    cd /Users/iphone4/Documents/TestGoogleMap    setenv COPY_COMMAND /xcode3.2.5/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/xcode3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/xcode3.2.5/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/iphone4/Documents/TestGoogleMap/Bing Logo@2x.png" "/Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos/TestGoogleMap.app/Bing Logo@2x.png"0#
+
+CCopyPNGFile /Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos/TestGoogleMap.app/GpsDisplay.png GpsDisplay.png
+s342940493.633177
+e342940493.665259
+r1
+xCopyPNGFile
+x/Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos/TestGoogleMap.app/GpsDisplay.png
+xGpsDisplay.png
+lSLF07#2@80"CopyPNGFile build/Debug-iphoneos/TestGoogleMap.app/GpsDisplay.png GpsDisplay.png342940493#342940493#0(0"0(0#0#53"/Users/iphone4/Documents/TestGoogleMap/GpsDisplay.png8622274432#578"    cd /Users/iphone4/Documents/TestGoogleMap    setenv COPY_COMMAND /xcode3.2.5/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/xcode3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/xcode3.2.5/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/iphone4/Documents/TestGoogleMap/GpsDisplay.png /Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos/TestGoogleMap.app/GpsDisplay.png0#
+
+CCopyPNGFile /Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos/TestGoogleMap.app/GpsDisplay@2x.png GpsDisplay@2x.png
+s342940493.665392
+e342940493.703908
+r1
+xCopyPNGFile
+x/Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos/TestGoogleMap.app/GpsDisplay@2x.png
+xGpsDisplay@2x.png
+lSLF07#2@86"CopyPNGFile build/Debug-iphoneos/TestGoogleMap.app/GpsDisplay@2x.png GpsDisplay@2x.png342940493#342940493#0(0"0(0#0#56"/Users/iphone4/Documents/TestGoogleMap/GpsDisplay@2x.png8622251584#584"    cd /Users/iphone4/Documents/TestGoogleMap    setenv COPY_COMMAND /xcode3.2.5/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/xcode3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/xcode3.2.5/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/iphone4/Documents/TestGoogleMap/GpsDisplay@2x.png /Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos/TestGoogleMap.app/GpsDisplay@2x.png0#
+
+CCopyPNGFile /Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos/TestGoogleMap.app/GpsDisplayHeading.png GpsDisplayHeading.png
+s342940493.704066
+e342940493.737412
+r1
+xCopyPNGFile
+x/Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos/TestGoogleMap.app/GpsDisplayHeading.png
+xGpsDisplayHeading.png
+lSLF07#2@94"CopyPNGFile build/Debug-iphoneos/TestGoogleMap.app/GpsDisplayHeading.png GpsDisplayHeading.png342940493#342940493#0(0"0(0#0#60"/Users/iphone4/Documents/TestGoogleMap/GpsDisplayHeading.png8622181216#592"    cd /Users/iphone4/Documents/TestGoogleMap    setenv COPY_COMMAND /xcode3.2.5/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/xcode3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/xcode3.2.5/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/iphone4/Documents/TestGoogleMap/GpsDisplayHeading.png /Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos/TestGoogleMap.app/GpsDisplayHeading.png0#
+
+CCopyPNGFile /Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos/TestGoogleMap.app/GpsDisplayHeading@2x.png GpsDisplayHeading@2x.png
+s342940493.737553
+e342940493.777091
+r1
+xCopyPNGFile
+x/Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos/TestGoogleMap.app/GpsDisplayHeading@2x.png
+xGpsDisplayHeading@2x.png
+lSLF07#2@100"CopyPNGFile build/Debug-iphoneos/TestGoogleMap.app/GpsDisplayHeading@2x.png GpsDisplayHeading@2x.png342940493#342940493#0(0"0(0#0#63"/Users/iphone4/Documents/TestGoogleMap/GpsDisplayHeading@2x.png8622095584#598"    cd /Users/iphone4/Documents/TestGoogleMap    setenv COPY_COMMAND /xcode3.2.5/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/xcode3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/xcode3.2.5/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/iphone4/Documents/TestGoogleMap/GpsDisplayHeading@2x.png /Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos/TestGoogleMap.app/GpsDisplayHeading@2x.png0#
+
+CCopyPNGFile /Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos/TestGoogleMap.app/esri.png esri.png
+s342940493.526038
+e342940493.570719
+r1
+xCopyPNGFile
+x/Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos/TestGoogleMap.app/esri.png
+xesri.png
+lSLF07#2@68"CopyPNGFile build/Debug-iphoneos/TestGoogleMap.app/esri.png esri.png342940493#342940493#0(0"0(0#0#47"/Users/iphone4/Documents/TestGoogleMap/esri.png8619138176#566"    cd /Users/iphone4/Documents/TestGoogleMap    setenv COPY_COMMAND /xcode3.2.5/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/xcode3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/xcode3.2.5/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/iphone4/Documents/TestGoogleMap/esri.png /Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos/TestGoogleMap.app/esri.png0#
+
+CCopyPNGFile /Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos/TestGoogleMap.app/esri@2x.png esri@2x.png
+s342940493.548402
+e342940493.633035
+r1
+xCopyPNGFile
+x/Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos/TestGoogleMap.app/esri@2x.png
+xesri@2x.png
+lSLF07#2@74"CopyPNGFile build/Debug-iphoneos/TestGoogleMap.app/esri@2x.png esri@2x.png342940493#342940493#0(0"0(0#0#50"/Users/iphone4/Documents/TestGoogleMap/esri@2x.png8614675936#572"    cd /Users/iphone4/Documents/TestGoogleMap    setenv COPY_COMMAND /xcode3.2.5/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/xcode3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/xcode3.2.5/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/iphone4/Documents/TestGoogleMap/esri@2x.png /Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos/TestGoogleMap.app/esri@2x.png0#
+
+CCpResource build/Debug-iphoneos/TestGoogleMap.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+s321950077.567412
+e321950077.574558
+r1
+xCpResource
+xbuild/Debug-iphoneos/TestGoogleMap.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist321950077#321950077#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist8618814912#500"    cd /Users/iphone4/Documents/TestGoogleMap    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist /Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos/TestGoogleMap.app0#
+
+CCpResource build/Debug-iphoneos/TestGoogleMap.app/ResourceRules.plist /xcode3.2.5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+s342940493.429043
+e342940493.454826
+r1
+xCpResource
+xbuild/Debug-iphoneos/TestGoogleMap.app/ResourceRules.plist
+x/xcode3.2.5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+lSLF07#2@95"Copy /xcode3.2.5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist342940493#342940493#0(0"0(0#0#90"/xcode3.2.5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist8619977120#504"    cd /Users/iphone4/Documents/TestGoogleMap    setenv PATH "/xcode3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode3.2.5/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /xcode3.2.5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist /Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos/TestGoogleMap.app0#
+
+CCreateUniversalBinary /Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos/TestGoogleMap.app/TestGoogleMap normal "armv6 armv7"
+s342940495.655786
+e342940495.662517
+r1
+xCreateUniversalBinary
+x/Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos/TestGoogleMap.app/TestGoogleMap
+xnormal
+xarmv6 armv7
+lSLF07#2@95"CreateUniversalBinary build/Debug-iphoneos/TestGoogleMap.app/TestGoogleMap normal "armv6 armv7"342940495#342940495#0(0"0(0#0#50"/Users/iphone4/Documents/TestGoogleMap/armv6 armv78622306944#568"    cd /Users/iphone4/Documents/TestGoogleMap    setenv PATH "/xcode3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/Objects-normal/armv6/TestGoogleMap /Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/Objects-normal/armv7/TestGoogleMap -output /Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos/TestGoogleMap.app/TestGoogleMap0#
+
+CGenerateDSYMFile /Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos/TestGoogleMap.app.dSYM /Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos/TestGoogleMap.app/TestGoogleMap
+s342940495.662619
+e342940495.895705
+r1
+xGenerateDSYMFile
+x/Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos/TestGoogleMap.app.dSYM
+x/Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos/TestGoogleMap.app/TestGoogleMap
+lSLF07#2@113"GenerateDSYMFile build/Debug-iphoneos/TestGoogleMap.app.dSYM build/Debug-iphoneos/TestGoogleMap.app/TestGoogleMap342940495#342940495#0(0"0(0#0#91"/Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos/TestGoogleMap.app/TestGoogleMap8622272320#383"    cd /Users/iphone4/Documents/TestGoogleMap    setenv PATH "/xcode3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode3.2.5/usr/bin/dsymutil /Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos/TestGoogleMap.app/TestGoogleMap -o /Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos/TestGoogleMap.app.dSYM0#
+
+CLd /Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/Objects-normal/armv6/TestGoogleMap normal armv6
+s342940495.285962
+e342940495.516098
+r1
+xLd
+x/Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/Objects-normal/armv6/TestGoogleMap
+xnormal
+xarmv6
+lSLF07#2@139"Link /Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/Objects-normal/armv6/TestGoogleMap342940495#342940495#0(0"0(0#0#0"8623597184#1037"    cd /Users/iphone4/Documents/TestGoogleMap    setenv IPHONEOS_DEPLOYMENT_TARGET 3.1.2    setenv PATH "/xcode3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /xcode3.2.5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos -L/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/lib -F/Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos -filelist /Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/Objects-normal/armv6/TestGoogleMap.LinkFileList -dead_strip -ObjC -all_load -miphoneos-version-min=3.1.2 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreLocation -framework QuartzCore -lArcGIS -lz -o /Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/Objects-normal/armv6/TestGoogleMap0#
+
+CLd /Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/Objects-normal/armv7/TestGoogleMap normal armv7
+s342940495.467079
+e342940495.655677
+r1
+xLd
+x/Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/Objects-normal/armv7/TestGoogleMap
+xnormal
+xarmv7
+lSLF07#2@139"Link /Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/Objects-normal/armv7/TestGoogleMap342940495#342940495#0(0"0(0#0#0"8620227808#1037"    cd /Users/iphone4/Documents/TestGoogleMap    setenv IPHONEOS_DEPLOYMENT_TARGET 3.1.2    setenv PATH "/xcode3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /xcode3.2.5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos -L/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/lib -F/Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos -filelist /Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/Objects-normal/armv7/TestGoogleMap.LinkFileList -dead_strip -ObjC -all_load -miphoneos-version-min=3.1.2 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreLocation -framework QuartzCore -lArcGIS -lz -o /Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/Objects-normal/armv7/TestGoogleMap0#
+
+CProcessInfoPlistFile /Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos/TestGoogleMap.app/Info.plist TestGoogleMap-Info.plist
+s342940493.429823
+e342940493.433710
+r1
+xProcessInfoPlistFile
+x/Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos/TestGoogleMap.app/Info.plist
+xTestGoogleMap-Info.plist
+lSLF07#2@32"Process TestGoogleMap-Info.plist342940493#342940493#0(0"0(0#0#63"/Users/iphone4/Documents/TestGoogleMap/TestGoogleMap-Info.plist8619476512#588"    cd /Users/iphone4/Documents/TestGoogleMap    setenv PATH "/xcode3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility TestGoogleMap-Info.plist -genpkginfo /Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos/TestGoogleMap.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos/TestGoogleMap.app/ResourceRules.plist -o /Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos/TestGoogleMap.app/Info.plist0#
+
+CProcessPCH /var/folders/ae/aeTYvJuLFYitRhVe3vxlFU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TestGoogleMap_Prefix-acgxycoojjrfrecrselyopvxcifh/TestGoogleMap_Prefix.pch.gch TestGoogleMap_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s342940494.002128
+e342940494.883407
+r1
+xProcessPCH
+x/var/folders/ae/aeTYvJuLFYitRhVe3vxlFU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TestGoogleMap_Prefix-acgxycoojjrfrecrselyopvxcifh/TestGoogleMap_Prefix.pch.gch
+xTestGoogleMap_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@35"Precompile TestGoogleMap_Prefix.pch342940494#342940494#0(0"0(0#0#63"/Users/iphone4/Documents/TestGoogleMap/TestGoogleMap_Prefix.pch8621884416#1886"    cd /Users/iphone4/Documents/TestGoogleMap    setenv LANG en_US.US-ASCII    setenv PATH "/xcode3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /xcode3.2.5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/TestGoogleMap-generated-files.hmap -I/Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/TestGoogleMap-own-target-headers.hmap -I/Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/TestGoogleMap-all-target-headers.hmap -iquote /Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/TestGoogleMap-project-headers.hmap -F/Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos -iquote/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include -iquote/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private -I/Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos/include -I/Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/DerivedSources/armv6 -I/Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/DerivedSources -c /Users/iphone4/Documents/TestGoogleMap/TestGoogleMap_Prefix.pch -o /var/folders/ae/aeTYvJuLFYitRhVe3vxlFU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TestGoogleMap_Prefix-acgxycoojjrfrecrselyopvxcifh/TestGoogleMap_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/ae/aeTYvJuLFYitRhVe3vxlFU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TestGoogleMap_Prefix-aeopapwdktdeqacomhwrgxygedax/TestGoogleMap_Prefix.pch.gch TestGoogleMap_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s342940494.003091
+e342940494.955567
+r1
+xProcessPCH
+x/var/folders/ae/aeTYvJuLFYitRhVe3vxlFU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TestGoogleMap_Prefix-aeopapwdktdeqacomhwrgxygedax/TestGoogleMap_Prefix.pch.gch
+xTestGoogleMap_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@35"Precompile TestGoogleMap_Prefix.pch342940494#342940494#0(0"0(0#0#63"/Users/iphone4/Documents/TestGoogleMap/TestGoogleMap_Prefix.pch8621687616#1886"    cd /Users/iphone4/Documents/TestGoogleMap    setenv LANG en_US.US-ASCII    setenv PATH "/xcode3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /xcode3.2.5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/TestGoogleMap-generated-files.hmap -I/Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/TestGoogleMap-own-target-headers.hmap -I/Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/TestGoogleMap-all-target-headers.hmap -iquote /Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/TestGoogleMap-project-headers.hmap -F/Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos -iquote/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include -iquote/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private -I/Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos/include -I/Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/DerivedSources/armv7 -I/Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/DerivedSources -c /Users/iphone4/Documents/TestGoogleMap/TestGoogleMap_Prefix.pch -o /var/folders/ae/aeTYvJuLFYitRhVe3vxlFU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TestGoogleMap_Prefix-aeopapwdktdeqacomhwrgxygedax/TestGoogleMap_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/ae/aeTYvJuLFYitRhVe3vxlFU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TestGoogleMap_Prefix-djupctzyprkrucbzqyeysrcivvfa/TestGoogleMap_Prefix.pch.gch TestGoogleMap_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s321950078.088934
+e321950078.925884
+r1
+xProcessPCH
+x/var/folders/ae/aeTYvJuLFYitRhVe3vxlFU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TestGoogleMap_Prefix-djupctzyprkrucbzqyeysrcivvfa/TestGoogleMap_Prefix.pch.gch
+xTestGoogleMap_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@35"Precompile TestGoogleMap_Prefix.pch321950078#321950078#0(0"0(0#0#63"/Users/iphone4/Documents/TestGoogleMap/TestGoogleMap_Prefix.pch8616132000#1882"    cd /Users/iphone4/Documents/TestGoogleMap    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/TestGoogleMap-generated-files.hmap -I/Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/TestGoogleMap-own-target-headers.hmap -I/Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/TestGoogleMap-all-target-headers.hmap -iquote /Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/TestGoogleMap-project-headers.hmap -F/Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos -iquote/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include -iquote/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private -I/Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos/include -I/Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/DerivedSources/armv6 -I/Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/DerivedSources -c /Users/iphone4/Documents/TestGoogleMap/TestGoogleMap_Prefix.pch -o /var/folders/ae/aeTYvJuLFYitRhVe3vxlFU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TestGoogleMap_Prefix-djupctzyprkrucbzqyeysrcivvfa/TestGoogleMap_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/ae/aeTYvJuLFYitRhVe3vxlFU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TestGoogleMap_Prefix-geqcomuqpszfgpcwfmntzdfhxqcu/TestGoogleMap_Prefix.pch.gch TestGoogleMap_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s321950078.089884
+e321950078.881555
+r1
+xProcessPCH
+x/var/folders/ae/aeTYvJuLFYitRhVe3vxlFU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TestGoogleMap_Prefix-geqcomuqpszfgpcwfmntzdfhxqcu/TestGoogleMap_Prefix.pch.gch
+xTestGoogleMap_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@35"Precompile TestGoogleMap_Prefix.pch321950078#321950078#0(0"0(0#0#63"/Users/iphone4/Documents/TestGoogleMap/TestGoogleMap_Prefix.pch8615884896#1882"    cd /Users/iphone4/Documents/TestGoogleMap    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/TestGoogleMap-generated-files.hmap -I/Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/TestGoogleMap-own-target-headers.hmap -I/Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/TestGoogleMap-all-target-headers.hmap -iquote /Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/TestGoogleMap-project-headers.hmap -F/Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos -iquote/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include -iquote/Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private -I/Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos/include -I/Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/DerivedSources/armv7 -I/Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/DerivedSources -c /Users/iphone4/Documents/TestGoogleMap/TestGoogleMap_Prefix.pch -o /var/folders/ae/aeTYvJuLFYitRhVe3vxlFU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TestGoogleMap_Prefix-geqcomuqpszfgpcwfmntzdfhxqcu/TestGoogleMap_Prefix.pch.gch0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/TestGoogleMap.xcent
+s321950081.042387
+e321950081.057946
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+x/Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/TestGoogleMap.xcent
+lSLF07#2@193"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/TestGoogleMap.xcent321950081#321950081#0(0"0(0#0#119"/Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/TestGoogleMap.xcent8611228128#450"    cd /Users/iphone4/Documents/TestGoogleMap    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist -entitlements -format xml -o /Users/iphone4/Documents/TestGoogleMap/build/TestGoogleMap.build/Debug-iphoneos/TestGoogleMap.build/TestGoogleMap.xcent0#
+
+CTouch /Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos/TestGoogleMap.app
+s342940495.895801
+e342940495.899219
+r1
+xTouch
+x/Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos/TestGoogleMap.app
+lSLF07#2@83"Touch /Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos/TestGoogleMap.app342940495#342940495#0(0"0(0#0#0"8621884032#272"    cd /Users/iphone4/Documents/TestGoogleMap    setenv PATH "/xcode3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/iphone4/Documents/TestGoogleMap/build/Debug-iphoneos/TestGoogleMap.app0#
+

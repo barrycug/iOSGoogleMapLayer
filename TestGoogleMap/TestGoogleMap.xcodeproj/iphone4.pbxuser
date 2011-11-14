@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* TestGoogleMapAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {942, 672}}";
+			sepNavSelRange = "{362, 0}";
+			sepNavVisRange = "{0, 511}";
+		};
+	};
+	1D3623250D0F684500981E51 /* TestGoogleMapAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {942, 649}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 644}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* TestGoogleMap */ = {
+		activeExec = 0;
+		executables = (
+			AD8C2C0712B9DD1C002B711C /* TestGoogleMap */,
+		);
+	};
+	28D7ACF60DDB3853001CB0EB /* TestGoogleMapViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {942, 672}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 354}";
+		};
+	};
+	28D7ACF70DDB3853001CB0EB /* TestGoogleMapViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1684, 1520}}";
+			sepNavSelRange = "{1941, 0}";
+			sepNavVisRange = "{1054, 1931}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = AD8C2C0712B9DD1C002B711C /* TestGoogleMap */;
+		activeSDKPreference = iphonesimulator4.2;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* TestGoogleMap */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* TestGoogleMap */,
+		);
+		breakpoints = (
+		);
+		codeSenseManager = AD8C2C1612B9DD3A002B711C /* Code sense */;
+		executables = (
+			AD8C2C0712B9DD1C002B711C /* TestGoogleMap */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					764,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					724,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 342940422;
+			PBXWorkspaceStateSaveDate = 342940422;
+		};
+		perUserProjectItems = {
+			AD5D53DF146684BC00B32BEB /* PBXTextBookmark */ = AD5D53DF146684BC00B32BEB /* PBXTextBookmark */;
+			AD82A4761330985800285458 /* PBXTextBookmark */ = AD82A4761330985800285458 /* PBXTextBookmark */;
+			AD82A484133099D900285458 /* PBXTextBookmark */ = AD82A484133099D900285458 /* PBXTextBookmark */;
+			AD82A486133099D900285458 /* PBXTextBookmark */ = AD82A486133099D900285458 /* PBXTextBookmark */;
+			AD82A4D113309BF500285458 /* PBXTextBookmark */ = AD82A4D113309BF500285458 /* PBXTextBookmark */;
+			AD8C2C3912B9EC71002B711C /* PBXBookmark */ = AD8C2C3912B9EC71002B711C /* PBXBookmark */;
+			AD8C2C3A12B9EC71002B711C /* PBXBookmark */ = AD8C2C3A12B9EC71002B711C /* PBXBookmark */;
+			AD8C2C3C12B9EC71002B711C /* PBXBookmark */ = AD8C2C3C12B9EC71002B711C /* PBXBookmark */;
+			AD8C2C4412B9EC71002B711C /* PBXTextBookmark */ = AD8C2C4412B9EC71002B711C /* PBXTextBookmark */;
+			AD8C2C8012B9EE18002B711C /* PBXTextBookmark */ = AD8C2C8012B9EE18002B711C /* PBXTextBookmark */;
+			AD8C2D4B12B9F623002B711C /* PBXTextBookmark */ = AD8C2D4B12B9F623002B711C /* PBXTextBookmark */;
+			AD90B9461470DB5700B63B34 /* PBXTextBookmark */ = AD90B9461470DB5700B63B34 /* PBXTextBookmark */;
+			AD90B9471470DB5700B63B34 /* PBXTextBookmark */ = AD90B9471470DB5700B63B34 /* PBXTextBookmark */;
+			AD90B9481470DB5700B63B34 /* PBXTextBookmark */ = AD90B9481470DB5700B63B34 /* PBXTextBookmark */;
+			AD90B9491470DB5700B63B34 /* PBXTextBookmark */ = AD90B9491470DB5700B63B34 /* PBXTextBookmark */;
+			AD90B94A1470DB5700B63B34 /* PBXTextBookmark */ = AD90B94A1470DB5700B63B34 /* PBXTextBookmark */;
+			AD90B94B1470DB5700B63B34 /* PBXTextBookmark */ = AD90B94B1470DB5700B63B34 /* PBXTextBookmark */;
+			AD90B9591470DEAF00B63B34 /* PBXTextBookmark */ = AD90B9591470DEAF00B63B34 /* PBXTextBookmark */;
+			ADB03D4712BCA77A002D077B /* PBXBookmark */ = ADB03D4712BCA77A002D077B /* PBXBookmark */;
+			ADB03D4812BCA77A002D077B /* PlistBookmark */ = ADB03D4812BCA77A002D077B /* PlistBookmark */;
+			ADB03D4912BCA77A002D077B /* PBXTextBookmark */ = ADB03D4912BCA77A002D077B /* PBXTextBookmark */;
+		};
+		sourceControlManager = AD8C2C1512B9DD3A002B711C /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1379, 301}}";
+			sepNavSelRange = "{264, 0}";
+			sepNavVisRange = "{0, 363}";
+		};
+	};
+	8D1107310486CEB800E47090 /* TestGoogleMap-Info.plist */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 91}, {1403, 782}}";
+		};
+	};
+	AD5D53DF146684BC00B32BEB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AD8C2C1C12B9DE23002B711C /* AGSGoogleMapLayer.m */;
+		name = "AGSGoogleMapLayer.m: 37";
+		rLen = 1724;
+		rLoc = 1128;
+		rType = 0;
+		vrLen = 1208;
+		vrLoc = 0;
+	};
+	AD82A4761330985800285458 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AD82A4771330985800285458 /* AGSTile.h */;
+		name = "AGSTile.h: 53";
+		rLen = 3;
+		rLoc = 1301;
+		rType = 0;
+		vrLen = 913;
+		vrLoc = 991;
+	};
+	AD82A4771330985800285458 /* AGSTile.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = AGSTile.h;
+		path = /Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSTile.h;
+		sourceTree = "<absolute>";
+	};
+	AD82A484133099D900285458 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AD82A485133099D900285458 /* AGSTiledLayer.h */;
+		name = "AGSTiledLayer.h: 159";
+		rLen = 7;
+		rLoc = 4742;
+		rType = 0;
+		vrLen = 1106;
+		vrLoc = 4116;
+	};
+	AD82A485133099D900285458 /* AGSTiledLayer.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = AGSTiledLayer.h;
+		path = /Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSTiledLayer.h;
+		sourceTree = "<absolute>";
+	};
+	AD82A486133099D900285458 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AD82A487133099D900285458 /* NSArray.h */;
+		name = "NSArray.h: 16";
+		rLen = 5;
+		rLoc = 415;
+		rType = 0;
+		vrLen = 1747;
+		vrLoc = 107;
+	};
+	AD82A487133099D900285458 /* NSArray.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = NSArray.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSArray.h;
+		sourceTree = "<absolute>";
+	};
+	AD82A4D113309BF500285458 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AD82A4D213309BF500285458 /* AGSGeometry.h */;
+		name = "AGSGeometry.h: 90";
+		rLen = 14;
+		rLoc = 2167;
+		rType = 0;
+		vrLen = 1206;
+		vrLoc = 1684;
+	};
+	AD82A4D213309BF500285458 /* AGSGeometry.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = AGSGeometry.h;
+		path = /Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSGeometry.h;
+		sourceTree = "<absolute>";
+	};
+	AD8C2C0712B9DD1C002B711C /* TestGoogleMap */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = TestGoogleMap;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	AD8C2C1512B9DD3A002B711C /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	AD8C2C1612B9DD3A002B711C /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	AD8C2C1B12B9DE23002B711C /* AGSGoogleMapLayer.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {942, 668}}";
+			sepNavSelRange = "{147, 52}";
+			sepNavVisRange = "{0, 360}";
+		};
+	};
+	AD8C2C1C12B9DE23002B711C /* AGSGoogleMapLayer.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {942, 1712}}";
+			sepNavSelRange = "{1128, 1724}";
+			sepNavVisRange = "{0, 1208}";
+			sepNavWindowFrame = "{{15, 91}, {1403, 782}}";
+		};
+	};
+	AD8C2C1E12B9DED9002B711C /* GoogleMapSchema.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {942, 668}}";
+			sepNavSelRange = "{413, 0}";
+			sepNavVisRange = "{0, 628}";
+		};
+	};
+	AD8C2C1F12B9DED9002B711C /* GoogleMapSchema.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {964, 1088}}";
+			sepNavSelRange = "{2368, 0}";
+			sepNavVisRange = "{0, 2143}";
+			sepNavWindowFrame = "{{15, 91}, {1403, 782}}";
+		};
+	};
+	AD8C2C2D12B9E8FF002B711C /* GoogleMapTileOperation.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {942, 668}}";
+			sepNavSelRange = "{152, 53}";
+			sepNavVisRange = "{0, 539}";
+		};
+	};
+	AD8C2C2E12B9E8FF002B711C /* GoogleMapTileOperation.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1700, 1120}}";
+			sepNavSelRange = "{1202, 0}";
+			sepNavVisRange = "{521, 1018}";
+			sepNavWindowFrame = "{{15, 91}, {1403, 782}}";
+		};
+	};
+	AD8C2C3912B9EC71002B711C /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = AF5B2971124D20B9001577AD /* GpsDisplayHeading@2x.png */;
+	};
+	AD8C2C3A12B9EC71002B711C /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = AF5B2970124D20B9001577AD /* GpsDisplayHeading.png */;
+	};
+	AD8C2C3C12B9EC71002B711C /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = AF5B28C8124D17C1001577AD /* Bing Logo@2x.png */;
+	};
+	AD8C2C4412B9EC71002B711C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AD8C2C4512B9EC71002B711C /* UIImage.h */;
+		name = "UIImage.h: 39";
+		rLen = 23;
+		rLoc = 1113;
+		rType = 0;
+		vrLen = 1944;
+		vrLoc = 193;
+	};
+	AD8C2C4512B9EC71002B711C /* UIImage.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = UIImage.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIImage.h;
+		sourceTree = "<absolute>";
+	};
+	AD8C2C8012B9EE18002B711C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* TestGoogleMapAppDelegate.m */;
+		name = "TestGoogleMapAppDelegate.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 644;
+		vrLoc = 0;
+	};
+	AD8C2D4B12B9F623002B711C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* TestGoogleMapViewController.h */;
+		name = "TestGoogleMapViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 354;
+		vrLoc = 0;
+	};
+	AD90B9461470DB5700B63B34 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* TestGoogleMapViewController.m */;
+		name = "TestGoogleMapViewController.m: 53";
+		rLen = 0;
+		rLoc = 1941;
+		rType = 0;
+		vrLen = 1931;
+		vrLoc = 1054;
+	};
+	AD90B9471470DB5700B63B34 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AD8C2C2E12B9E8FF002B711C /* GoogleMapTileOperation.m */;
+		name = "GoogleMapTileOperation.m: 50";
+		rLen = 0;
+		rLoc = 1202;
+		rType = 0;
+		vrLen = 1018;
+		vrLoc = 521;
+	};
+	AD90B9481470DB5700B63B34 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AD8C2C2D12B9E8FF002B711C /* GoogleMapTileOperation.h */;
+		name = "GoogleMapTileOperation.h: 9";
+		rLen = 53;
+		rLoc = 152;
+		rType = 0;
+		vrLen = 539;
+		vrLoc = 0;
+	};
+	AD90B9491470DB5700B63B34 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AD8C2C1F12B9DED9002B711C /* GoogleMapSchema.m */;
+		name = "GoogleMapSchema.m: 45";
+		rLen = 0;
+		rLoc = 2368;
+		rType = 0;
+		vrLen = 2143;
+		vrLoc = 0;
+	};
+	AD90B94A1470DB5700B63B34 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AD8C2C1E12B9DED9002B711C /* GoogleMapSchema.h */;
+		name = "GoogleMapSchema.h: 20";
+		rLen = 0;
+		rLoc = 413;
+		rType = 0;
+		vrLen = 628;
+		vrLoc = 0;
+	};
+	AD90B94B1470DB5700B63B34 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AD8C2C1B12B9DE23002B711C /* AGSGoogleMapLayer.h */;
+		name = "AGSGoogleMapLayer.h: 9";
+		rLen = 52;
+		rLoc = 147;
+		rType = 0;
+		vrLen = 360;
+		vrLoc = 0;
+	};
+	AD90B9591470DEAF00B63B34 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AD8C2C1B12B9DE23002B711C /* AGSGoogleMapLayer.h */;
+		name = "AGSGoogleMapLayer.h: 9";
+		rLen = 52;
+		rLoc = 147;
+		rType = 0;
+		vrLen = 360;
+		vrLoc = 0;
+	};
+	ADB03D4712BCA77A002D077B /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = AF5B28C7124D17C1001577AD /* Bing Logo.png */;
+	};
+	ADB03D4812BCA77A002D077B /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* TestGoogleMap-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/iphone4/Documents/TestGoogleMap/TestGoogleMap-Info.plist";
+		rLen = 0;
+		rLoc = 4294967295;
+	};
+	ADB03D4912BCA77A002D077B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* TestGoogleMapAppDelegate.h */;
+		name = "TestGoogleMapAppDelegate.h: 17";
+		rLen = 0;
+		rLoc = 362;
+		rType = 0;
+		vrLen = 511;
+		vrLoc = 0;
+	};
+}
